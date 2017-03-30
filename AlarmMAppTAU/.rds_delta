@@ -1,0 +1,8 @@
+#delete
+res/wgt/js/appcontrol.js
+#add
+res/wgt/js/alarm.js
+#modify
+res/wgt/author-signature.xml
+res/wgt/signature1.xml
+res/wgt/index.html

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Tizen Mobile Web Basic Template" />
+
+    <title>Tizen Mobile Web Basic Application</title>
+    <link rel="stylesheet" href="lib/tau/mobile/theme/default/tau.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="ui-page " id="main">
+        <div class="ui-header">
+            <h1>Pick Time</h1>
+        </div>
+
+        <div class="ui-content">
+            <div data-role="fieldcontain">
+                <p style="margin: 10px 0px 0px 0px;">Time</p>
+                <input type="time" name="time" id="timepicker" value="" />
+                <button id="btn-set-alarm">Set Alarm</button>
+                <audio id="alarm-audio" src="/opt/usr/media/Music/Over the Horizon.mp3"></audio>
+                <p>Alarm List</p>
+                <div id="list-alarms"></div>
+                 
+            </div>
+        </div>
+    </div>
+
+    <div class="ui-page" id="two">
+        <div class="ui-header">
+            <h1>Event</h1>
+        </div>
+        <div class="ui-content">
+            <p>This is page two</p>
+            <button id="btn-alarm-back">Stop</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="lib/tau/mobile/js/tau.js"></script>
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/alarm.js"></script>
+</body>
+
+</html>
